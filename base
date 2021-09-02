@@ -12,7 +12,7 @@
 <div class="topbar">
     <ul>
         <li style="margin-left: 5%"><img class="icon" src="https://yan-blog.oss-cn-beijing.aliyuncs.com/musics/music.png" alt=""></li>
-        <li style="text-align: center"><font style="font-size: 23px"><b>YAN的音乐室</b></font></li>
+        <li style="text-align: center"><font style="font-size: 21px"><b>YAN的音乐室</b></font></li>
         <li style="float:right; margin-right: 5%"><img class="icon" src="https://yan-blog.oss-cn-beijing.aliyuncs.com/musics/bannerEasy.png" alt=""></li>
     </ul>
 </div>
