@@ -3,7 +3,7 @@
     padding: 0;
 }
 
-body{
+body {
     background: linear-gradient(288deg, #FFB6B9 0%, #FFB6B9 35%, #FAE3D9 calc(35% + 1px), #FAE3D9 45%, #BBDED6 calc(45% + 1px), #BBDED6 65%, #61C0BF calc(65% + 1px), #61C0BF 100%);
 }
 
@@ -18,7 +18,7 @@ ul {
     width: 100%;
     box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.3);
 }
-  
+
 li {
     float: left;
     display: block;
@@ -28,17 +28,17 @@ li {
     text-decoration: none;
 }
 
-.topbar{
+.topbar {
     height: 80px;
 }
-  
+
 .icon {
     height: 30px;
 }
 
-.contents{
+.contents {
     max-width: 960px;
-    margin:0 auto; 
+    margin: 0 auto;
 }
 
 .music {
@@ -48,41 +48,44 @@ li {
     margin: 20px;
     display: flex;
     flex-wrap: wrap;
-    align-items:center;
-    justify-content:center;
+    align-items: center;
+    justify-content: center;
     box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.4);
-    
 }
 
-
-.music-logo{
+.music-logo {
     width: 150px;
     height: 150px;
     border-radius: 10px;
     margin-right: 5%;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.6);
 }
-.img{
+
+.img {
     width: 100%;
     object-fit: cover;
 }
 
-.music-name{
+.music-name {
     font-size: 1.4em;
     margin-bottom: 10%
 }
 
-.music-desc{
+.music-desc {
     margin-left: 20px;
 }
 
-.music-href{
+.music-href {
     margin-left: auto;
     transition: all 0.3s;
 }
 
-.music-href:hover{
+.music-href:hover {
     transform: scale(1.03);
+}
+
+.muisc-info {
+    display: block;
 }
 
 .button {
@@ -91,8 +94,8 @@ li {
     text-decoration: none;
     border-radius: 4px;
     font-size: 20px;
-    background-color: white; 
-    color: black; 
+    background-color: white;
+    color: black;
     border: 2px solid #008CBA;
 }
 
@@ -107,24 +110,24 @@ li {
         display: flex;
         flex-direction: column;
     }
-    .music-logo{
+    .music-logo {
         margin-bottom: 5%;
     }
-    .music-name{
+    .music-name {
         margin-bottom: 5%;
     }
-    .music-desc{
+    .music-desc {
         margin-bottom: 5%;
     }
-    .music-href{
+    .music-href {
         margin-right: auto;
     }
-    .button{
+    .button {
         padding: 8px 50px;
     }
 }
 
-.copyright{
+.copyright {
     color: white;
     margin-top: 1%;
     margin-bottom: 1%;

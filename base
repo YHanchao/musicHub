@@ -6,6 +6,7 @@
     <script src="https://kit.fontawesome.com/b39e3e3549.js" crossorigin="anonymous"></script>
     <link rel="shortcut icon" href="https://yan-blog.oss-cn-beijing.aliyuncs.com/musics/music.png">
     <title>YAN的音乐室</title>
+    <script type="text/javascript" src="js/noIE.js"></script>
 </head>
 
 <body>
