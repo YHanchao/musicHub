@@ -27,7 +27,7 @@ def makeHTML(info):
 
     return string
 
-with open('base', 'r', encoding='utf-8') as baseFile:
+with open('base.html', 'r', encoding='utf-8') as baseFile:
     baseHTML = baseFile.read()
     post = baseHTML.find('insert')
 
