@@ -1,7 +1,9 @@
 import json
 
+
 def makeHTML(info):
-    name, cover, time, type, download, author = info['name'], info['cover'], info['time'], info['type'], info['download'], info['author']
+    name, cover, time, type, download, author = info['name'], info[
+        'cover'], info['time'], info['type'], info['download'], info['author']
     string = '''
     <div class="music">
         <div class="music-logo">
@@ -27,11 +29,12 @@ def makeHTML(info):
 
     return string
 
+
 with open('base.html', 'r', encoding='utf-8') as baseFile:
     baseHTML = baseFile.read()
     post = baseHTML.find('insert')
 
-    content = baseHTML[: post]
+    content = baseHTML[:post]
 
     jsonFile = open('json/music.json', 'r', encoding='utf-8')
     infos = json.loads(jsonFile.read())
@@ -40,7 +43,7 @@ with open('base.html', 'r', encoding='utf-8') as baseFile:
     for info in infos:
         content += makeHTML(info)
 
-    content += baseHTML[post + len('insert'): ]
+    content += baseHTML[post + len('insert'):]
 
     with open('index.html', 'w', encoding='utf-8') as finalFile:
         finalFile.write(content)
